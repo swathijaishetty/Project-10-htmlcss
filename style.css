@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-image: url("./assets/retro-living-room-interior-design.jpg");
+   background-size: cover;
+   background-position: center center;
+   height:100vh;
+   color: #fff;
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+   overflow: hidden;
+   margin: 0 auto;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-left: 30px;
+    width:40px;
+
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+   position: relative;
+   bottom: 40px;
+   right:70px;
+
+}
+hr{
+    position: relative;
+    bottom: 80px;
+    left:350px;
+    width:75%;
+}
+.list-item{
+    margin-right: 60px;
+    font-size: 18px;
+}
+.nav-right {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   left:1280px;
+   bottom:130px;
+   font-size: 20px;
+
+}
+.nav-right i{
+    position:relative;
+    right:50px ;
+    top:40px;
+}
+h1{
+    font-size: 70px;
+}
+.head{
+    width:700px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+button{
+    background: none;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+}
+.learn{
+    position: relative;
+    top:50px;
+    left:100px;
+    color: #fff;
+    width: 190px;
+    height:50px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.para1,.para2{
+    width:250px;
+    height:160px;
+    background-color:rgba(255,255,255,0.15);
+
+}
+.para1{
+    position: relative;
+    left:1000px;
+    bottom:250px;
+    padding: 10px;
+}
+.ppp i{
+    background-color: white;
+    color: black;
+    height:50px;
+    padding:10px 30px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+p{
+    margin-top: 20px;
+}
+.para2{
+    position: relative;
+    left:760px;
+    bottom:150px;
+    padding: 10px;
+}
+.para1 div.line1{
+    height: 50px;
+    width: 20px;
+    border-left: 1px solid #fff;   
+}
+.para2 div.line2{
+    height: 50px;
+    width: 50px;
+    border-bottom: 1px solid #fff;   
+}
+
+.para1 div.circle1{
+    height:15px;
+    width:15px;
+
+    border-radius: 50px;
+    background-color: #fff;
+}
+.para2 div.circle2{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.para1 div.line1{
+    position: relative;
+    left:180px;
+    top:43px;
+}
+.para2 div.line2{
+    position: relative;
+    left:240px;
+    bottom:113px;
+}
+
+.para1 div.circle1{
+    position: relative;
+    left:173px;
+    top:40px;
+}
+
+.para2 div.circle2{
+    position: relative;
+    left:283px;
+    bottom:121px;
+}
+
