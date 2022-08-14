@@ -159,3 +159,54 @@ p{
     bottom:121px;
 }
 
+
+
+@media screen and (max-width:1200px){
+    .list{
+        display: none;
+    }
+    hr{
+        display: none;  
+    }
+    h1{
+        font-size: 55px;
+        margin-right: 60px;
+    }
+    .head{
+        width:400px;
+    }
+    .call{
+        position: fixed;
+        right:20px;
+        right: 20px;
+    }
+    .ppp{
+        position: relative;
+        left:-300px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+   .ppp{
+    position: relative;
+    left:-720px;
+    top:400px;
+   }
+   body{
+    overflow-y: scroll;
+   }
+  .main{
+    margin-left: -50px;
+  }
+  .para1,.para2{
+    width:200px;
+    margin-left: -20px;
+  }
+  .para2 div.circle2,.para2 div.line2{
+    margin-left: -50px;
+  }
+  .para1 div.circle1,.para1 div.line1{
+    margin-left: -50px;
+}
+}
